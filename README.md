@@ -8,8 +8,8 @@ This datapack is currently made for Minecraft 1.17. You may change versions by e
 There are two tags that this datapack listens for: `seeker` and `seeker_immune`.<br/>
 | Tag | Effect |
 |-----|:-----:|
-|`seeker`| Can lock others in place |
-|`seeker_immune`| Cannot be locked in place |
+|`seeker`| Can stun and pull others players |
+|`seeker_immune`| Cannot be targeted by Seeker |
 
 1. Pick a friend (or a small group) as Seekers. <br/>
 2. Run this command on the Freezers: `/tag <name> add seeker`. <br/>
@@ -18,10 +18,10 @@ There are two tags that this datapack listens for: `seeker` and `seeker_immune`.
 ## Gameplay:
 Once everything is set up, things will work like this:
 
-* Anyone (who isn't immune) in the Freezer's line of sight will be frozen in place. </br> **When that happens:**
+* Anyone (who isn't immune) in the Seeker's line of sight will be frozen in place then gradually pulled closer towards the Seeker. </br> **When that happens:**
   * A trail of particles will show the Survivor's line of sight.
-  * The frozen player will start glowing.
-* Freezers *CAN LOCK EACH OTHER* unless they are given the `freeze_immune` tag.
+  * The targeted player will start glowing.
+* Seekers *CAN LOCK EACH OTHER* unless they are given the `seeker_immune` tag.
 
 ## Contribute to this datapack
 If you encounter any bugs with this datapack, please make a new issue and label it with a description of the error. <br/>

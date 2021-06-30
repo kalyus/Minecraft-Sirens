@@ -5,15 +5,15 @@ A Minecraft datapack that allows players to capture and reel in others within li
 ## Setup:
 This datapack is currently made for Minecraft 1.17. You may change versions by editing the `pack_format` to the appropriate number
 
-There are two tags that this datapack listens for: `can_freeze` and `freeze_immune`.<br/>
+There are two tags that this datapack listens for: `seeker` and `seeker_immune`.<br/>
 | Tag | Effect |
 |-----|:-----:|
-|`can_freeze`| Can lock others in place |
-|`freeze_immune`| Cannot be locked in place |
+|`seeker`| Can lock others in place |
+|`seeker_immune`| Cannot be locked in place |
 
-1. Pick a friend (or a small group) as Freezers. <br/>
-2. Run this command on the Freezers: `/tag <name> add can_freeze`. <br/>
-3. Run this to make players immune to the freeze effect: `/tag <name> add freeze_immune`. <br/>
+1. Pick a friend (or a small group) as Seekers. <br/>
+2. Run this command on the Freezers: `/tag <name> add seeker`. <br/>
+3. Run this to make players immune to the freeze effect: `/tag <name> add seeker_immune`. <br/>
 
 ## Gameplay:
 Once everything is set up, things will work like this:

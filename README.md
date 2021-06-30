@@ -15,13 +15,19 @@ There are two tags that this datapack listens for: `seeker` and `seeker_immune`.
 2. Run this command on the Freezers: `/tag <name> add seeker`. <br/>
 3. Run this to make players immune to the freeze effect: `/tag <name> add seeker_immune`. <br/>
 
-## Gameplay:
+# Gameplay:
 Once everything is set up, things will work like this:
 
 * Anyone (who isn't immune) in the Seeker's line of sight will be frozen in place then gradually pulled closer towards the Seeker. </br> **When that happens:**
   * A trail of particles will show the Survivor's line of sight.
   * The targeted player will start glowing.
 * Seekers *CAN LOCK EACH OTHER* unless they are given the `seeker_immune` tag.
+
+## Seekers:
+A player with the `Seeker` tag will be given the following attributes:
+1. The Ability to Target players without the `seeker_immune` tag
+2. Blindness, Strength, Saturation and Resistance
+
 
 ## Contribute to this datapack
 If you encounter any bugs with this datapack, please make a new issue and label it with a description of the error. <br/>

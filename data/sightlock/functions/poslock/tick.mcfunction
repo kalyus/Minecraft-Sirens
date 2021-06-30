@@ -6,7 +6,7 @@ execute at @a[tag=poslock] as @e[tag=poslock,type=area_effect_cloud] if score @s
 
 # Move locked players towards the player locked onto them
 # Only moves them towards the nearest one
-execute as @e[tag=poslock] at @s facing entity @p[tag=locked_on] eyes run tp @s ^ ^ ^0.1
+execute as @e[tag=poslock] at @s facing entity @p[tag=locked_on] feet run tp @s ^ ^ ^0.1
 # Note: This could get janky with more than one seeker. Just FYI.
 
 # Effects for locked players

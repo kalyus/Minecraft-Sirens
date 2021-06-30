@@ -4,6 +4,11 @@ execute as @a unless score @s posLockID matches 0.. run function sightlock:poslo
 # Teleport locked players
 execute at @a[tag=poslock] as @e[tag=poslock,type=area_effect_cloud] if score @s posLockID = @p posLockID run tp @p @s
 
+# Move locked players towards the player locked onto them
+# Only moves them towards the nearest one
+execute as @a[tag=poslock] facing @p[tag=locked_on] run tp @s ^ ^ ^0.05
+# Note: This could get janky with more than one seeker. Just FYI.
+
 # Effects for locked players
 effect give @a[tag=poslock] glowing 1 0 true
 

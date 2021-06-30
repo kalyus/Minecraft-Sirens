@@ -1,5 +1,6 @@
 # Reset targets for new tick
 tag @a remove targeted
+tag @a remove locked_on
 
 # Raytrace from all eligible players
 # SHOULD THIS BE TEAM BASED OR TAG BASED?

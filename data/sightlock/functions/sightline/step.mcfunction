@@ -5,6 +5,8 @@ tag @s add targeting
 execute as @a[dx=0,tag=!targeting] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0,tag=!targeting] run tag @s add targeted
 # Beam effect
 execute as @a[dx=0,tag=!targeting] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0,tag=!targeting] as @p[tag=targeting] at @s anchored eyes run function sightlock:sightline/locked_on
+# Mark self as locked on
+execute as @a[dx=0,tag=!targeting] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0,tag=!targeting] as @p[tag=targeting] run tag @s add locked_on
 
 # Take next step
 # Will not take step if wall is reached

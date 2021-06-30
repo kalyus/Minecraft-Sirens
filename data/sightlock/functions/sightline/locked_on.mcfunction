@@ -1,7 +1,5 @@
 # Draw trail
-particle minecraft:soul_fire_flame ~-1 ~1.075 ~ 0 0 0 0 1 normal @a
-particle minecraft:portal ~ ~1 ~ 0.1 0.1 0.1 0.2 1 normal @a
-particle minecraft:reverse_portal ~1 ~1 ~ 0.1 0.1 0.1 0.01 1 normal @a
+particle minecraft:portal ~ ~ ~ 0 0 0 0.2 1 normal @a
 
 
 

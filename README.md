@@ -1,6 +1,6 @@
 
-# Minecraft, but you freeze others on sight
-A Minecraft datapack that allows players to lock the position and the facing of other players by looking at them.
+# Minecraft, but you pull players towards you via sight
+A Minecraft datapack that allows players to capture and reel in others within line of sight
 
 ## Setup:
 This datapack is currently made for Minecraft 1.17. You may change versions by editing the `pack_format` to the appropriate number

@@ -24,9 +24,9 @@ Once everything is set up, things will work like this:
 * Seekers *CAN LOCK EACH OTHER* unless they are given the `seeker_immune` tag.
 
 ## Seekers:
-A player with the `Seeker` tag will be given the following attributes:
-1. The Ability to Target players without the `seeker_immune` tag
-2. Blindness, Strength, Saturation and Resistance
+A player with the `Seeker` tag will be need to look directly at another player for the effect to work.
+Once the target is looked at, they will be frozen in place and gradually move closer to the Seeker.
+
 
 
 ## Contribute to this datapack

@@ -1,5 +1,5 @@
 
-# Minecraft, but you pull players towards you via sight
+# Minecraft, but you draw players towards you by sight
 A Minecraft datapack that allows players to capture and reel in others within line of sight
 
 ## Setup:
